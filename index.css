@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-color:rgba(245, 245, 245, 0.598);
+}
+/* .padar {
+} */
+.sanaubar {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  position: sticky;
+  padding: 10px 10px 5px 20px;
+  border-bottom: 1px solid #efefef;
+  z-index: 5;
+}
+.sanaubar .logo {
+  width: 33%;
+}
+.logo img {
+  width: 33%;
+}
+.search {
+  width: 33%;
+}
+#search {
+  padding: 10px 10px 10px 35px;
+  background-color: #efefef;
+  border: none;
+  border-radius: 9px;
+  width: 25%;
+  font-size: 15px;
+}
+.icons i {
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+.icons i:hover {
+  padding: 10px;
+  font-size: 20px;
+  color: gray;
+}
+input[type="search"] {
+  position: absolute;
+  background-image: url(premium-icon-search-4024513.png);
+  background-size: 18px 20px;
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  opacity: 0.7;
+}
+.icons img {
+  width: 22px;
+}
+.icons img:hover {
+  width: 22px;
+  opacity: 0.7;
+}
+.shapka {
+  display: flex;
+}
+.leftava {
+  text-align: center;
+  margin-top: 30px;
+  width: 39%;
+}
+.leftava img {
+  width: 40%;
+  border: 2px solid lightgrey;
+  border-radius: 100%;
+  padding: 5px;
+}
+.rightinfo label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: 300;
+  padding-right: 20px;
+}
+.rightinfo {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-top: 5%;
+}
+.rightinfo #button {
+  padding: 7px 15px 7px 15px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.rightinfo p {
+  display: inline;
+}
+.grey {
+  color: gray;
+}
+.twoline {
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+.twoline p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+.paragraph p {
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+.shapkacha h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+.shapkacha a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #00376b;
+  font-size: 15px;
+}
+.actual p{
+  text-align: center;
+}
+.actual {
+  width: 70%;
+  margin: 50px 0px 50px 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.actual img {
+  width: 80px;
+  border-radius: 100%;
+  border: 1px solid lightgray;
+  padding: 2px;
+}
+.actual a {
+  text-decoration: none;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+hr {
+  margin: 0px 50px 0px 50px;
+}
+#posttext1{
+  border-top:1px solid  ;
+  padding-top: 20px;
+}
+.thirdline {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+  color: gray;
+}
+.thirdline a:hover{
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
+  .thirdline a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: small;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: relative;
+}
+.posts img {
+  width: 90%;
+  position: relative;
+}
+.size p {
+  font-size: 13px;
+}
+.black a {
+  color: black;
+}
+.image ul {
+  list-style-type: none;
+  position: absolute;
+  top: 45%;
+  left: 7%;
+  z-index: -1;
+}
+.image ul li {
+display: inline;
+
+}
+.posts img:hover{
+opacity: 0.4;
+
+}
+.posts ul:hover {
+  position: absolute;
+  z-index: 1;
+}
+/* ///////// */
+.image2{
+  position: relative;
+}
+.image2 ul {
+  list-style-type: none;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  z-index: -1;
+}
+.image2 ul li {
+display: inline;
+
+}
+.posts img:hover{
+opacity: 0.4 ;
+}
+.posts ul:hover {
+  z-index: 1;
+}
+/* ///////// */
+.image3{
+  position: relative;
+}
+.image3 ul {
+  list-style-type: none;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  z-index: -1;
+}
+.image3 ul li {
+display: inline;
+
+}
+.posts img:hover{
+opacity: 0.2;
+}
+
+.posts ul:hover {
+  z-index: 1;
+  background-image: url("trans.jpg");
+  background-size: 10%;
+}
+
+.footer{
+  color: gray;
+  padding:30px ;
+  text-align: center;
+  height: 15vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+  Arial, sans-serif;
+  font-size: 13px;
+}
